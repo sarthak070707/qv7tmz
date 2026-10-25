@@ -1,0 +1,4 @@
+# Installed by Vercel for the Python function in api/index.py.
+fastapi
+pandas
+pydantic
