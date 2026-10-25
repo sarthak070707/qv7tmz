@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# Third-party notice from starlette's test client, not from our code.
+filterwarnings = ["ignore:Using `httpx` with `starlette.testclient`"]
