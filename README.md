@@ -128,4 +128,11 @@ I used **Claude** (Anthropic, in claude.ai) throughout this project to:
 - write most of the code: the backend, the frontend, the tests, and the Docker, Vercel and CI configuration;
 - explain the Elexon datasets and help interpret the results.
 
-My own work: I verified the data by making real calls to the Elexon API and checking the responses, made the product decisions (the default cutoff, the strictly-before rule, how to frame the buffer), ran the tests, Docker setup and website on my own laptop at every step, found and reported a bug in the error handling, and deployed the app. I reviewed the code and can explain every part of it.
+My own contributions:
+
+- **Data verification:** made real calls to the Elexon API and checked the responses before any code was written.
+- **Product decisions:** chose the default cutoff, the strictly-before rule for forecasts published at the cutoff, and how to frame the buffer for the buying team.
+- **Testing on my machine:** ran the test suite, the full Elexon download, the website and the Docker setup on my own laptop at every step.
+- **Bug finding:** found and reported a bug in the error handling, which was then fixed.
+- **Deployment:** set up the GitHub repository and deployed the app on Vercel.
+- **Review:** reviewed the code and can explain every part of it.
